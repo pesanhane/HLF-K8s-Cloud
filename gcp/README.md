@@ -1,6 +1,6 @@
-By: Raj   raj@acloudfan.com
-Content: Part of a course "Hyperledger Fabric Network Setup & Design"
-More information: http://acloudfan.com    http://bcmentors.com
+By: Pesanhane   pesanhane@gmail.com
+Content: "Hyperledger Fabric Network Setup & Design"
+
 
 
 Assets specific to GCP
