@@ -29,3 +29,18 @@ Ensure that peer has joined the channel
 
         peer channel list
 exit ** At this point your K8s Fabric Network is up **
+
+Validating the network
+
+  Install & Instantiate the test chaincode
+
+        kubectl exec -it acme-peer-0 /bin/bash
+        ./cc-test.sh install ./cc-test.sh instantiate
+  Invoke | Query the chaincode to see the changes in values of a/b
+
+        ./cc-test.sh query ./cc-test.sh invoke
+  Check the values inside the Budget peer
+
+      kubectl exec -it acme-peer-0 /bin/bash
+      ./cc-test.sh install
+    ./cc-test.sh query The query should return the same values as you see in acme-peer Execute invoke/query in both peers to validate
