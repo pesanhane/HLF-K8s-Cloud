@@ -2,7 +2,7 @@
 # FROM hyperledger/fabric-peer:1.4.2
 FROM hyperledger/fabric-peer:2.1
 
-LABEL  maintainer="Rajeev Sakhuja <raj@acloudfan.com>"
+LABEL  maintainer="Helio Pesanhane <pesanhane@gmail.com>"
 
 #1. Create a folder
 RUN mkdir -p /var/hyperledger/config
